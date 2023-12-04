@@ -35,7 +35,7 @@ const nome = prompt("Introduci il tuo nome");
 
 // - confronta carattere per carattere i nomi degli autorizzati con il tuo
 //    - se già la lumghezza è diversa salta
-//    - se la corrispondenza arriva a fine cambia go in true ed interromi il ciclo
+//    - se la corrispondenza arriva a fine cambia go in true
 for ( i=0; i<authorized.length; i++)
 {
     if (go)
